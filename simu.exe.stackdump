@@ -1,0 +1,8 @@
+Exception: STATUS_ACCESS_VIOLATION at eip=30363237
+eax=007BF670 ebx=007BF5F8 ecx=0A01E5F0 edx=007BF670 esi=007BF680 edi=005A420C
+ebp=35313330 esp=007BF5CC program=E:\DEVSeclipse\workspace\meta-dymodeling\simu.exe
+cs=0023 ds=002B es=002B fs=0053 gs=002B ss=002B
+Stack trace:
+Frame     Function  Args
+ 138592 [main] simu 19564 handle_exceptions: Exception: STATUS_ACCESS_VIOLATION
+ 139508 [main] simu 19564 handle_exceptions: Error while dumping state (probably corrupted stack)

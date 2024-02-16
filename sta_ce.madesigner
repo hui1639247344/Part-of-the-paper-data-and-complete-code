@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns="http://www.example.org/DEVSModeler" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation">
+  <CoupledModelType xmi:id="_SiSEobDlEe2EGPxn4okUvg" modelName="top" defined="true" sourceFileRelativePath="sta_ce.ma">
+    <ports xmi:type="CoupledPort" xmi:id="_SiSEorDlEe2EGPxn4okUvg" portName="ceout" portType="OUTPUT_PORT" incomingLinks="_SiSEtLDlEe2EGPxn4okUvg"/>
+    <ports xmi:type="CoupledPort" xmi:id="_SiSEo7DlEe2EGPxn4okUvg" portName="cetmpout" portType="OUTPUT_PORT" incomingLinks="_SiSEtbDlEe2EGPxn4okUvg"/>
+    <ports xmi:type="CoupledPort" xmi:id="_SiSEpLDlEe2EGPxn4okUvg" portName="ce1in" outgoingLinks="_SiSEtrDlEe2EGPxn4okUvg"/>
+    <ports xmi:type="CoupledPort" xmi:id="_SiSEpbDlEe2EGPxn4okUvg" portName="ce2in" outgoingLinks="_SiSEt7DlEe2EGPxn4okUvg"/>
+    <ports xmi:type="CoupledPort" xmi:id="_SiSEprDlEe2EGPxn4okUvg" portName="ce3in" outgoingLinks="_SiSEuLDlEe2EGPxn4okUvg"/>
+    <ports xmi:type="CoupledPort" xmi:id="_SiSEp7DlEe2EGPxn4okUvg" portName="ce4in" outgoingLinks="_SiSEubDlEe2EGPxn4okUvg"/>
+    <ports xmi:type="CoupledPort" xmi:id="_SiSEqLDlEe2EGPxn4okUvg" portName="ce5in" outgoingLinks="_SiSEurDlEe2EGPxn4okUvg"/>
+    <ports xmi:type="CoupledPort" xmi:id="_SiSEqbDlEe2EGPxn4okUvg" portName="ce6in" outgoingLinks="_SiSEu7DlEe2EGPxn4okUvg"/>
+    <atomicModels xmi:type="AtomicModelInstance" xmi:id="_SiSEqrDlEe2EGPxn4okUvg" instanceName="sta_ce">
+      <modelType xmi:type="CPPAtomicModelType" xmi:id="_SiSEq7DlEe2EGPxn4okUvg" modelName="STA_CE" defined="true" sourceFileRelativePath="STA_CE.cpp">
+        <ports xmi:type="OutputAtomicPort" xmi:id="_SiSErLDlEe2EGPxn4okUvg" portName="ceout" portType="OUTPUT_PORT" outgoingLinks="_SiSEtLDlEe2EGPxn4okUvg"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_SiSErbDlEe2EGPxn4okUvg" portName="cetmpout" portType="OUTPUT_PORT" outgoingLinks="_SiSEtbDlEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_SiSErrDlEe2EGPxn4okUvg" portName="ce1in" incomingLinks="_SiSEtrDlEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_SiSEr7DlEe2EGPxn4okUvg" portName="ce2in" incomingLinks="_SiSEt7DlEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_SiSEsLDlEe2EGPxn4okUvg" portName="ce3in" incomingLinks="_SiSEuLDlEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_SiSEsbDlEe2EGPxn4okUvg" portName="ce4in" incomingLinks="_SiSEubDlEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_SiSEsrDlEe2EGPxn4okUvg" portName="ce5in" incomingLinks="_SiSEurDlEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_SiSEs7DlEe2EGPxn4okUvg" portName="ce6in" incomingLinks="_SiSEu7DlEe2EGPxn4okUvg"/>
+      </modelType>
+    </atomicModels>
+    <links xmi:type="CoupledLink" xmi:id="_SiSEtLDlEe2EGPxn4okUvg" target="_SiSEorDlEe2EGPxn4okUvg" source="_SiSErLDlEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_SiSEtbDlEe2EGPxn4okUvg" target="_SiSEo7DlEe2EGPxn4okUvg" source="_SiSErbDlEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_SiSEtrDlEe2EGPxn4okUvg" target="_SiSErrDlEe2EGPxn4okUvg" source="_SiSEpLDlEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_SiSEt7DlEe2EGPxn4okUvg" target="_SiSEr7DlEe2EGPxn4okUvg" source="_SiSEpbDlEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_SiSEuLDlEe2EGPxn4okUvg" target="_SiSEsLDlEe2EGPxn4okUvg" source="_SiSEprDlEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_SiSEubDlEe2EGPxn4okUvg" target="_SiSEsbDlEe2EGPxn4okUvg" source="_SiSEp7DlEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_SiSEurDlEe2EGPxn4okUvg" target="_SiSEsrDlEe2EGPxn4okUvg" source="_SiSEqLDlEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_SiSEu7DlEe2EGPxn4okUvg" target="_SiSEs7DlEe2EGPxn4okUvg" source="_SiSEqbDlEe2EGPxn4okUvg"/>
+  </CoupledModelType>
+  <notation:Diagram xmi:id="_SiSEvLDlEe2EGPxn4okUvg" type="DEVS" element="_SiSEobDlEe2EGPxn4okUvg" name="sta_ce.madesigner" measurementUnit="Pixel">
+    <children xmi:type="notation:Node" xmi:id="_Sidq0LDlEe2EGPxn4okUvg" type="2002" element="_SiSEorDlEe2EGPxn4okUvg">
+      <children xmi:type="notation:Node" xmi:id="_Sidq1bDlEe2EGPxn4okUvg" type="5005"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_Sidq0bDlEe2EGPxn4okUvg"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_Sidq0rDlEe2EGPxn4okUvg"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_Sidq07DlEe2EGPxn4okUvg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Sidq1LDlEe2EGPxn4okUvg" x="846" y="324"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_SieR4LDlEe2EGPxn4okUvg" type="2002" element="_SiSEo7DlEe2EGPxn4okUvg">
+      <children xmi:type="notation:Node" xmi:id="_SieR5bDlEe2EGPxn4okUvg" type="5005"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_SieR4bDlEe2EGPxn4okUvg"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_SieR4rDlEe2EGPxn4okUvg"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_SieR47DlEe2EGPxn4okUvg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SieR5LDlEe2EGPxn4okUvg" x="840" y="228"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_SieR5rDlEe2EGPxn4okUvg" type="2002" element="_SiSEpLDlEe2EGPxn4okUvg">
+      <children xmi:type="notation:Node" xmi:id="_SieR67DlEe2EGPxn4okUvg" type="5005"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_SieR57DlEe2EGPxn4okUvg"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_SieR6LDlEe2EGPxn4okUvg"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_SieR6bDlEe2EGPxn4okUvg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SieR6rDlEe2EGPxn4okUvg" x="102" y="132"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_SieR7LDlEe2EGPxn4okUvg" type="2002" element="_SiSEpbDlEe2EGPxn4okUvg">
+      <children xmi:type="notation:Node" xmi:id="_SieR8bDlEe2EGPxn4okUvg" type="5005"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_SieR7bDlEe2EGPxn4okUvg"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_SieR7rDlEe2EGPxn4okUvg"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_SieR77DlEe2EGPxn4okUvg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SieR8LDlEe2EGPxn4okUvg" x="108" y="198"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_SieR8rDlEe2EGPxn4okUvg" type="2002" element="_SiSEprDlEe2EGPxn4okUvg">
+      <children xmi:type="notation:Node" xmi:id="_SieR97DlEe2EGPxn4okUvg" type="5005"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_SieR87DlEe2EGPxn4okUvg"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_SieR9LDlEe2EGPxn4okUvg"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_SieR9bDlEe2EGPxn4okUvg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SieR9rDlEe2EGPxn4okUvg" x="96" y="252"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_SieR-LDlEe2EGPxn4okUvg" type="2002" element="_SiSEp7DlEe2EGPxn4okUvg">
+      <children xmi:type="notation:Node" xmi:id="_SieR_bDlEe2EGPxn4okUvg" type="5005"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_SieR-bDlEe2EGPxn4okUvg"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_SieR-rDlEe2EGPxn4okUvg"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_SieR-7DlEe2EGPxn4okUvg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SieR_LDlEe2EGPxn4okUvg" x="90" y="330"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_SieR_rDlEe2EGPxn4okUvg" type="2002" element="_SiSEqLDlEe2EGPxn4okUvg">
+      <children xmi:type="notation:Node" xmi:id="_Sie48LDlEe2EGPxn4okUvg" type="5005"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_SieR_7DlEe2EGPxn4okUvg"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_SieSALDlEe2EGPxn4okUvg"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_SieSAbDlEe2EGPxn4okUvg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SieSArDlEe2EGPxn4okUvg" x="96" y="396"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_Sie48bDlEe2EGPxn4okUvg" type="2002" element="_SiSEqbDlEe2EGPxn4okUvg">
+      <children xmi:type="notation:Node" xmi:id="_Sie49rDlEe2EGPxn4okUvg" type="5005"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_Sie48rDlEe2EGPxn4okUvg"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_Sie487DlEe2EGPxn4okUvg"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_Sie49LDlEe2EGPxn4okUvg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Sie49bDlEe2EGPxn4okUvg" x="102" y="468"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_Sie497DlEe2EGPxn4okUvg" type="2003" element="_SiSEqrDlEe2EGPxn4okUvg">
+      <children xmi:type="notation:Node" xmi:id="_Sie4-rDlEe2EGPxn4okUvg" type="5007"/>
+      <styles xmi:type="notation:ShapeStyle" xmi:id="_Sie4-LDlEe2EGPxn4okUvg" fontName="Microsoft YaHei UI"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Sie4-bDlEe2EGPxn4okUvg" x="510" y="138" height="319"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_SiSEvbDlEe2EGPxn4okUvg"/>
+  </notation:Diagram>
+</xmi:XMI>

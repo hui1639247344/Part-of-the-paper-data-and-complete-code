@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns="http://www.example.org/DEVSModeler" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation">
+  <CoupledModelType xmi:id="_c3e7gLMiEe2EGPxn4okUvg" modelName="top" defined="true" sourceFileRelativePath="dymodeling.ma">
+    <ports xmi:type="CoupledPort" xmi:id="_c3e7gbMiEe2EGPxn4okUvg" portName="CCE" portType="OUTPUT_PORT" incomingLinks="_c3e8cbMiEe2EGPxn4okUvg"/>
+    <ports xmi:type="CoupledPort" xmi:id="_c3e7grMiEe2EGPxn4okUvg" portName="C" portType="OUTPUT_PORT" incomingLinks="_c3e8aLMiEe2EGPxn4okUvg"/>
+    <ports xmi:type="CoupledPort" xmi:id="_c3e7g7MiEe2EGPxn4okUvg" portName="CE" portType="OUTPUT_PORT" incomingLinks="_c3e8abMiEe2EGPxn4okUvg"/>
+    <ports xmi:type="CoupledPort" xmi:id="_c3e7hLMiEe2EGPxn4okUvg" portName="CCF" portType="OUTPUT_PORT" incomingLinks="_c3e8arMiEe2EGPxn4okUvg"/>
+    <ports xmi:type="CoupledPort" xmi:id="_c3e7hbMiEe2EGPxn4okUvg" portName="CH" portType="OUTPUT_PORT" incomingLinks="_c3e8a7MiEe2EGPxn4okUvg"/>
+    <ports xmi:type="CoupledPort" xmi:id="_c3e7hrMiEe2EGPxn4okUvg" portName="CW" portType="OUTPUT_PORT" incomingLinks="_c3e8bLMiEe2EGPxn4okUvg"/>
+    <ports xmi:type="CoupledPort" xmi:id="_c3e7h7MiEe2EGPxn4okUvg" portName="T" portType="OUTPUT_PORT" incomingLinks="_c3e8bbMiEe2EGPxn4okUvg"/>
+    <ports xmi:type="CoupledPort" xmi:id="_c3e7iLMiEe2EGPxn4okUvg" portName="C_TMP" portType="OUTPUT_PORT" incomingLinks="_c3e8YrMiEe2EGPxn4okUvg"/>
+    <ports xmi:type="CoupledPort" xmi:id="_c3e7ibMiEe2EGPxn4okUvg" portName="CE_TMP" portType="OUTPUT_PORT" incomingLinks="_c3e8Y7MiEe2EGPxn4okUvg"/>
+    <ports xmi:type="CoupledPort" xmi:id="_c3e7irMiEe2EGPxn4okUvg" portName="CCF_TMP" portType="OUTPUT_PORT" incomingLinks="_c3e8ZLMiEe2EGPxn4okUvg"/>
+    <ports xmi:type="CoupledPort" xmi:id="_c3e7i7MiEe2EGPxn4okUvg" portName="CH_TMP" portType="OUTPUT_PORT" incomingLinks="_c3e8ZbMiEe2EGPxn4okUvg"/>
+    <ports xmi:type="CoupledPort" xmi:id="_c3e7jLMiEe2EGPxn4okUvg" portName="CW_TMP" portType="OUTPUT_PORT" incomingLinks="_c3e8ZrMiEe2EGPxn4okUvg"/>
+    <ports xmi:type="CoupledPort" xmi:id="_c3e7jbMiEe2EGPxn4okUvg" portName="T_TMP" portType="OUTPUT_PORT" incomingLinks="_c3e8Z7MiEe2EGPxn4okUvg"/>
+    <ports xmi:type="CoupledPort" xmi:id="_c3e7jrMiEe2EGPxn4okUvg" portName="Pp1" outgoingLinks="_c3e8JbMiEe2EGPxn4okUvg _c3e8MLMiEe2EGPxn4okUvg _c3e8OrMiEe2EGPxn4okUvg"/>
+    <ports xmi:type="CoupledPort" xmi:id="_c3e7j7MiEe2EGPxn4okUvg" portName="Pp2" outgoingLinks="_c3e8RLMiEe2EGPxn4okUvg _c3e8TrMiEe2EGPxn4okUvg _c3e8WLMiEe2EGPxn4okUvg"/>
+    <ports xmi:type="CoupledPort" xmi:id="_c3e7kLMiEe2EGPxn4okUvg" portName="G" outgoingLinks="_c3e8JrMiEe2EGPxn4okUvg _c3e8MbMiEe2EGPxn4okUvg _c3e8O7MiEe2EGPxn4okUvg _c3e8RbMiEe2EGPxn4okUvg _c3e8T7MiEe2EGPxn4okUvg _c3e8WbMiEe2EGPxn4okUvg"/>
+    <ports xmi:type="CoupledPort" xmi:id="_c3e7kbMiEe2EGPxn4okUvg" portName="P" outgoingLinks="_c3e8J7MiEe2EGPxn4okUvg _c3e8MrMiEe2EGPxn4okUvg _c3e8PLMiEe2EGPxn4okUvg _c3e8RrMiEe2EGPxn4okUvg _c3e8ULMiEe2EGPxn4okUvg _c3e8WrMiEe2EGPxn4okUvg"/>
+    <ports xmi:type="CoupledPort" xmi:id="_c3e7krMiEe2EGPxn4okUvg" portName="wkpein" outgoingLinks="_c3e8KLMiEe2EGPxn4okUvg"/>
+    <ports xmi:type="CoupledPort" xmi:id="_c3e7k7MiEe2EGPxn4okUvg" portName="Fr" outgoingLinks="_c3e8cLMiEe2EGPxn4okUvg"/>
+    <atomicModels xmi:type="AtomicModelInstance" xmi:id="_c3e7lLMiEe2EGPxn4okUvg" instanceName="roucutin">
+      <modelType xmi:type="CPPAtomicModelType" xmi:id="_c3e7lbMiEe2EGPxn4okUvg" modelName="ROUCUTIN" defined="true" sourceFileRelativePath="ROUCUTIN.cpp">
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e7lrMiEe2EGPxn4okUvg" portName="roucutin_Ppin" incomingLinks="_c3e8JbMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e7l7MiEe2EGPxn4okUvg" portName="roucutin_Gin" incomingLinks="_c3e8JrMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e7mLMiEe2EGPxn4okUvg" portName="roucutin_Pin" incomingLinks="_c3e8J7MiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e7mbMiEe2EGPxn4okUvg" portName="roucutin_wkpein" incomingLinks="_c3e8KLMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c3e7mrMiEe2EGPxn4okUvg" portName="roucutin_cout" portType="OUTPUT_PORT" outgoingLinks="_c3e8KbMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c3e7m7MiEe2EGPxn4okUvg" portName="roucutin_ceout" portType="OUTPUT_PORT" outgoingLinks="_c3e8KrMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c3e7nLMiEe2EGPxn4okUvg" portName="roucutin_ccfout" portType="OUTPUT_PORT" outgoingLinks="_c3e8K7MiEe2EGPxn4okUvg"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c3e7nbMiEe2EGPxn4okUvg" portName="roucutin_chout" portType="OUTPUT_PORT" outgoingLinks="_c3e8LLMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c3e7nrMiEe2EGPxn4okUvg" portName="roucutin_cwout" portType="OUTPUT_PORT" outgoingLinks="_c3e8LbMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c3e7n7MiEe2EGPxn4okUvg" portName="roucutin_tout" portType="OUTPUT_PORT" outgoingLinks="_c3e8LrMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c3e7oLMiEe2EGPxn4okUvg" portName="roucutin_wkpeout" portType="OUTPUT_PORT" outgoingLinks="_c3e8L7MiEe2EGPxn4okUvg"/>
+      </modelType>
+    </atomicModels>
+    <atomicModels xmi:type="AtomicModelInstance" xmi:id="_c3e7obMiEe2EGPxn4okUvg" instanceName="roufullcut">
+      <modelType xmi:type="CPPAtomicModelType" xmi:id="_c3e7orMiEe2EGPxn4okUvg" modelName="ROUFULLCUT" defined="true" sourceFileRelativePath="ROUFULLCUT.cpp">
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e7o7MiEe2EGPxn4okUvg" portName="roufullcut_Ppin" incomingLinks="_c3e8MLMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e7pLMiEe2EGPxn4okUvg" portName="roufullcut_Gin" incomingLinks="_c3e8MbMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e7pbMiEe2EGPxn4okUvg" portName="roufullcut_Pin" incomingLinks="_c3e8MrMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e7prMiEe2EGPxn4okUvg" portName="roufullcut_wkpein" incomingLinks="_c3e8L7MiEe2EGPxn4okUvg"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c3e7p7MiEe2EGPxn4okUvg" portName="roufullcut_cout" portType="OUTPUT_PORT" outgoingLinks="_c3e8M7MiEe2EGPxn4okUvg"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c3e7qLMiEe2EGPxn4okUvg" portName="roufullcut_ceout" portType="OUTPUT_PORT" outgoingLinks="_c3e8NLMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c3e7qbMiEe2EGPxn4okUvg" portName="roufullcut_ccfout" portType="OUTPUT_PORT" outgoingLinks="_c3e8NbMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c3e7qrMiEe2EGPxn4okUvg" portName="roufullcut_chout" portType="OUTPUT_PORT" outgoingLinks="_c3e8NrMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c3e7q7MiEe2EGPxn4okUvg" portName="roufullcut_cwout" portType="OUTPUT_PORT" outgoingLinks="_c3e8N7MiEe2EGPxn4okUvg"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c3e7rLMiEe2EGPxn4okUvg" portName="roufullcut_tout" portType="OUTPUT_PORT" outgoingLinks="_c3e8OLMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c3e7rbMiEe2EGPxn4okUvg" portName="roufullcut_wkpeout" portType="OUTPUT_PORT" outgoingLinks="_c3e8ObMiEe2EGPxn4okUvg"/>
+      </modelType>
+    </atomicModels>
+    <atomicModels xmi:type="AtomicModelInstance" xmi:id="_c3e7rrMiEe2EGPxn4okUvg" instanceName="roucutout">
+      <modelType xmi:type="CPPAtomicModelType" xmi:id="_c3e7r7MiEe2EGPxn4okUvg" modelName="ROUCUTOUT" defined="true" sourceFileRelativePath="ROUCUTOUT.cpp">
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e7sLMiEe2EGPxn4okUvg" portName="roucutout_Ppin" incomingLinks="_c3e8OrMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e7sbMiEe2EGPxn4okUvg" portName="roucutout_Gin" incomingLinks="_c3e8O7MiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e7srMiEe2EGPxn4okUvg" portName="roucutout_Pin" incomingLinks="_c3e8PLMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e7s7MiEe2EGPxn4okUvg" portName="roucutout_wkpein" incomingLinks="_c3e8ObMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c3e7tLMiEe2EGPxn4okUvg" portName="roucutout_cout" portType="OUTPUT_PORT" outgoingLinks="_c3e8PbMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c3e7tbMiEe2EGPxn4okUvg" portName="roucutout_ceout" portType="OUTPUT_PORT" outgoingLinks="_c3e8PrMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c3e7trMiEe2EGPxn4okUvg" portName="roucutout_ccfout" portType="OUTPUT_PORT" outgoingLinks="_c3e8P7MiEe2EGPxn4okUvg"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c3e7t7MiEe2EGPxn4okUvg" portName="roucutout_chout" portType="OUTPUT_PORT" outgoingLinks="_c3e8QLMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c3e7uLMiEe2EGPxn4okUvg" portName="roucutout_cwout" portType="OUTPUT_PORT" outgoingLinks="_c3e8QbMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c3e7ubMiEe2EGPxn4okUvg" portName="roucutout_tout" portType="OUTPUT_PORT" outgoingLinks="_c3e8QrMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c3e7urMiEe2EGPxn4okUvg" portName="roucutout_wkpeout" portType="OUTPUT_PORT" outgoingLinks="_c3e8Q7MiEe2EGPxn4okUvg"/>
+      </modelType>
+    </atomicModels>
+    <atomicModels xmi:type="AtomicModelInstance" xmi:id="_c3e7u7MiEe2EGPxn4okUvg" instanceName="fincutin">
+      <modelType xmi:type="CPPAtomicModelType" xmi:id="_c3e7vLMiEe2EGPxn4okUvg" modelName="FINCUTIN" defined="true" sourceFileRelativePath="FINCUTIN.cpp">
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e7vbMiEe2EGPxn4okUvg" portName="fincutin_Ppin" incomingLinks="_c3e8RLMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e7vrMiEe2EGPxn4okUvg" portName="fincutin_Gin" incomingLinks="_c3e8RbMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e7v7MiEe2EGPxn4okUvg" portName="fincutin_Pin" incomingLinks="_c3e8RrMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e7wLMiEe2EGPxn4okUvg" portName="fincutin_wkpein" incomingLinks="_c3e8Q7MiEe2EGPxn4okUvg"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c3e7wbMiEe2EGPxn4okUvg" portName="fincutin_cout" portType="OUTPUT_PORT" outgoingLinks="_c3e8R7MiEe2EGPxn4okUvg"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c3e7wrMiEe2EGPxn4okUvg" portName="fincutin_ceout" portType="OUTPUT_PORT" outgoingLinks="_c3e8SLMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c3e7w7MiEe2EGPxn4okUvg" portName="fincutin_ccfout" portType="OUTPUT_PORT" outgoingLinks="_c3e8SbMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c3e7xLMiEe2EGPxn4okUvg" portName="fincutin_chout" portType="OUTPUT_PORT" outgoingLinks="_c3e8SrMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c3e7xbMiEe2EGPxn4okUvg" portName="fincutin_cwout" portType="OUTPUT_PORT" outgoingLinks="_c3e8S7MiEe2EGPxn4okUvg"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c3e7xrMiEe2EGPxn4okUvg" portName="fincutin_tout" portType="OUTPUT_PORT" outgoingLinks="_c3e8TLMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c3e7x7MiEe2EGPxn4okUvg" portName="fincutin_wkpeout" portType="OUTPUT_PORT" outgoingLinks="_c3e8TbMiEe2EGPxn4okUvg"/>
+      </modelType>
+    </atomicModels>
+    <atomicModels xmi:type="AtomicModelInstance" xmi:id="_c3e7yLMiEe2EGPxn4okUvg" instanceName="finfullcut">
+      <modelType xmi:type="CPPAtomicModelType" xmi:id="_c3e7ybMiEe2EGPxn4okUvg" modelName="FINFULLCUT" defined="true" sourceFileRelativePath="FINFULLCUT.cpp">
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e7yrMiEe2EGPxn4okUvg" portName="finfullcut_Ppin" incomingLinks="_c3e8TrMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e7y7MiEe2EGPxn4okUvg" portName="finfullcut_Gin" incomingLinks="_c3e8T7MiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e7zLMiEe2EGPxn4okUvg" portName="finfullcut_Pin" incomingLinks="_c3e8ULMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e7zbMiEe2EGPxn4okUvg" portName="finfullcut_wkpein" incomingLinks="_c3e8TbMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c3e7zrMiEe2EGPxn4okUvg" portName="finfullcut_cout" portType="OUTPUT_PORT" outgoingLinks="_c3e8UbMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c3e7z7MiEe2EGPxn4okUvg" portName="finfullcut_ceout" portType="OUTPUT_PORT" outgoingLinks="_c3e8UrMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c3e70LMiEe2EGPxn4okUvg" portName="finfullcut_ccfout" portType="OUTPUT_PORT" outgoingLinks="_c3e8U7MiEe2EGPxn4okUvg"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c3e70bMiEe2EGPxn4okUvg" portName="finfullcut_chout" portType="OUTPUT_PORT" outgoingLinks="_c3e8VLMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c3e70rMiEe2EGPxn4okUvg" portName="finfullcut_cwout" portType="OUTPUT_PORT" outgoingLinks="_c3e8VbMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c3e707MiEe2EGPxn4okUvg" portName="finfullcut_tout" portType="OUTPUT_PORT" outgoingLinks="_c3e8VrMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c3e71LMiEe2EGPxn4okUvg" portName="finfullcut_wkpeout" portType="OUTPUT_PORT" outgoingLinks="_c3e8V7MiEe2EGPxn4okUvg"/>
+      </modelType>
+    </atomicModels>
+    <atomicModels xmi:type="AtomicModelInstance" xmi:id="_c3e71bMiEe2EGPxn4okUvg" instanceName="fincutout">
+      <modelType xmi:type="CPPAtomicModelType" xmi:id="_c3e71rMiEe2EGPxn4okUvg" modelName="FINCUTOUT" defined="true" sourceFileRelativePath="FINCUTOUT.cpp">
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e717MiEe2EGPxn4okUvg" portName="fincutout_Ppin" incomingLinks="_c3e8WLMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e72LMiEe2EGPxn4okUvg" portName="fincutout_Gin" incomingLinks="_c3e8WbMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e72bMiEe2EGPxn4okUvg" portName="fincutout_Pin" incomingLinks="_c3e8WrMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e72rMiEe2EGPxn4okUvg" portName="fincutout_wkpein" incomingLinks="_c3e8V7MiEe2EGPxn4okUvg"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c3e727MiEe2EGPxn4okUvg" portName="fincutout_cout" portType="OUTPUT_PORT" outgoingLinks="_c3e8W7MiEe2EGPxn4okUvg"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c3e73LMiEe2EGPxn4okUvg" portName="fincutout_ceout" portType="OUTPUT_PORT" outgoingLinks="_c3e8XLMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c3e73bMiEe2EGPxn4okUvg" portName="fincutout_ccfout" portType="OUTPUT_PORT" outgoingLinks="_c3e8XbMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c3e73rMiEe2EGPxn4okUvg" portName="fincutout_chout" portType="OUTPUT_PORT" outgoingLinks="_c3e8XrMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c3e737MiEe2EGPxn4okUvg" portName="fincutout_cwout" portType="OUTPUT_PORT" outgoingLinks="_c3e8X7MiEe2EGPxn4okUvg"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c3e74LMiEe2EGPxn4okUvg" portName="fincutout_tout" portType="OUTPUT_PORT" outgoingLinks="_c3e8YLMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c3e74bMiEe2EGPxn4okUvg" portName="fincutout_wkpeout" portType="OUTPUT_PORT" outgoingLinks="_c3e8YbMiEe2EGPxn4okUvg"/>
+      </modelType>
+    </atomicModels>
+    <atomicModels xmi:type="AtomicModelInstance" xmi:id="_c3e74rMiEe2EGPxn4okUvg" instanceName="sta_c">
+      <modelType xmi:type="CPPAtomicModelType" xmi:id="_c3e747MiEe2EGPxn4okUvg" modelName="STA_C" defined="true" sourceFileRelativePath="STA_C.cpp">
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c3e75LMiEe2EGPxn4okUvg" portName="cout" portType="OUTPUT_PORT" outgoingLinks="_c3e8aLMiEe2EGPxn4okUvg _c3e8brMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c3e75bMiEe2EGPxn4okUvg" portName="ctmpout" portType="OUTPUT_PORT" outgoingLinks="_c3e8YrMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e75rMiEe2EGPxn4okUvg" portName="c1in" incomingLinks="_c3e8KbMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e757MiEe2EGPxn4okUvg" portName="c2in" incomingLinks="_c3e8M7MiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e76LMiEe2EGPxn4okUvg" portName="c3in" incomingLinks="_c3e8PbMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e76bMiEe2EGPxn4okUvg" portName="c4in" incomingLinks="_c3e8R7MiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e76rMiEe2EGPxn4okUvg" portName="c5in" incomingLinks="_c3e8UbMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e767MiEe2EGPxn4okUvg" portName="c6in" incomingLinks="_c3e8W7MiEe2EGPxn4okUvg"/>
+      </modelType>
+    </atomicModels>
+    <atomicModels xmi:type="AtomicModelInstance" xmi:id="_c3e77LMiEe2EGPxn4okUvg" instanceName="sta_ce">
+      <modelType xmi:type="CPPAtomicModelType" xmi:id="_c3e77bMiEe2EGPxn4okUvg" modelName="STA_CE" defined="true" sourceFileRelativePath="STA_CE.cpp">
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c3e77rMiEe2EGPxn4okUvg" portName="ceout" portType="OUTPUT_PORT" outgoingLinks="_c3e8abMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c3e777MiEe2EGPxn4okUvg" portName="cetmpout" portType="OUTPUT_PORT" outgoingLinks="_c3e8Y7MiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e78LMiEe2EGPxn4okUvg" portName="ce1in" incomingLinks="_c3e8KrMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e78bMiEe2EGPxn4okUvg" portName="ce2in" incomingLinks="_c3e8NLMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e78rMiEe2EGPxn4okUvg" portName="ce3in" incomingLinks="_c3e8PrMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e787MiEe2EGPxn4okUvg" portName="ce4in" incomingLinks="_c3e8SLMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e79LMiEe2EGPxn4okUvg" portName="ce5in" incomingLinks="_c3e8UrMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e79bMiEe2EGPxn4okUvg" portName="ce6in" incomingLinks="_c3e8XLMiEe2EGPxn4okUvg"/>
+      </modelType>
+    </atomicModels>
+    <atomicModels xmi:type="AtomicModelInstance" xmi:id="_c3e79rMiEe2EGPxn4okUvg" instanceName="sta_ccf">
+      <modelType xmi:type="CPPAtomicModelType" xmi:id="_c3e797MiEe2EGPxn4okUvg" modelName="STA_CCF" defined="true" sourceFileRelativePath="STA_CCF.cpp">
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c3e7-LMiEe2EGPxn4okUvg" portName="ccfout" portType="OUTPUT_PORT" outgoingLinks="_c3e8arMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c3e7-bMiEe2EGPxn4okUvg" portName="ccftmpout" portType="OUTPUT_PORT" outgoingLinks="_c3e8ZLMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e7-rMiEe2EGPxn4okUvg" portName="ccf1in" incomingLinks="_c3e8K7MiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e7-7MiEe2EGPxn4okUvg" portName="ccf2in" incomingLinks="_c3e8NbMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e7_LMiEe2EGPxn4okUvg" portName="ccf3in" incomingLinks="_c3e8P7MiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e7_bMiEe2EGPxn4okUvg" portName="ccf4in" incomingLinks="_c3e8SbMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e7_rMiEe2EGPxn4okUvg" portName="ccf5in" incomingLinks="_c3e8U7MiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e7_7MiEe2EGPxn4okUvg" portName="ccf6in" incomingLinks="_c3e8XbMiEe2EGPxn4okUvg"/>
+      </modelType>
+    </atomicModels>
+    <atomicModels xmi:type="AtomicModelInstance" xmi:id="_c3e8ALMiEe2EGPxn4okUvg" instanceName="sta_ch">
+      <modelType xmi:type="CPPAtomicModelType" xmi:id="_c3e8AbMiEe2EGPxn4okUvg" modelName="STA_CH" defined="true" sourceFileRelativePath="STA_CH.cpp">
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c3e8ArMiEe2EGPxn4okUvg" portName="chout" portType="OUTPUT_PORT" outgoingLinks="_c3e8a7MiEe2EGPxn4okUvg"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c3e8A7MiEe2EGPxn4okUvg" portName="chtmpout" portType="OUTPUT_PORT" outgoingLinks="_c3e8ZbMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e8BLMiEe2EGPxn4okUvg" portName="ch1in" incomingLinks="_c3e8LLMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e8BbMiEe2EGPxn4okUvg" portName="ch2in" incomingLinks="_c3e8NrMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e8BrMiEe2EGPxn4okUvg" portName="ch3in" incomingLinks="_c3e8QLMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e8B7MiEe2EGPxn4okUvg" portName="ch4in" incomingLinks="_c3e8SrMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e8CLMiEe2EGPxn4okUvg" portName="ch5in" incomingLinks="_c3e8VLMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e8CbMiEe2EGPxn4okUvg" portName="ch6in" incomingLinks="_c3e8XrMiEe2EGPxn4okUvg"/>
+      </modelType>
+    </atomicModels>
+    <atomicModels xmi:type="AtomicModelInstance" xmi:id="_c3e8CrMiEe2EGPxn4okUvg" instanceName="sta_cw">
+      <modelType xmi:type="CPPAtomicModelType" xmi:id="_c3e8C7MiEe2EGPxn4okUvg" modelName="STA_CW" defined="true" sourceFileRelativePath="STA_CW.cpp">
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c3e8DLMiEe2EGPxn4okUvg" portName="cwout" portType="OUTPUT_PORT" outgoingLinks="_c3e8bLMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c3e8DbMiEe2EGPxn4okUvg" portName="cwtmpout" portType="OUTPUT_PORT" outgoingLinks="_c3e8ZrMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e8DrMiEe2EGPxn4okUvg" portName="cw1in" incomingLinks="_c3e8LbMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e8D7MiEe2EGPxn4okUvg" portName="cw2in" incomingLinks="_c3e8N7MiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e8ELMiEe2EGPxn4okUvg" portName="cw3in" incomingLinks="_c3e8QbMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e8EbMiEe2EGPxn4okUvg" portName="cw4in" incomingLinks="_c3e8S7MiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e8ErMiEe2EGPxn4okUvg" portName="cw5in" incomingLinks="_c3e8VbMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e8E7MiEe2EGPxn4okUvg" portName="cw6in" incomingLinks="_c3e8X7MiEe2EGPxn4okUvg"/>
+      </modelType>
+    </atomicModels>
+    <atomicModels xmi:type="AtomicModelInstance" xmi:id="_c3e8FLMiEe2EGPxn4okUvg" instanceName="sta_cce">
+      <modelType xmi:type="CPPAtomicModelType" xmi:id="_c3e8FbMiEe2EGPxn4okUvg" modelName="STA_CCE" defined="true" sourceFileRelativePath="STA_CCE.cpp">
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c3e8FrMiEe2EGPxn4okUvg" portName="cceout" portType="OUTPUT_PORT" outgoingLinks="_c3e8cbMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e8F7MiEe2EGPxn4okUvg" portName="Frin" incomingLinks="_c3e8cLMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e8GLMiEe2EGPxn4okUvg" portName="cin" incomingLinks="_c3e8brMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e8GbMiEe2EGPxn4okUvg" portName="tin" incomingLinks="_c3e8b7MiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e8GrMiEe2EGPxn4okUvg" portName="cce_wkpein" incomingLinks="_c3e8YbMiEe2EGPxn4okUvg"/>
+      </modelType>
+    </atomicModels>
+    <atomicModels xmi:type="AtomicModelInstance" xmi:id="_c3e8G7MiEe2EGPxn4okUvg" instanceName="sta_t">
+      <modelType xmi:type="CPPAtomicModelType" xmi:id="_c3e8HLMiEe2EGPxn4okUvg" modelName="STA_T" defined="true" sourceFileRelativePath="STA_T.cpp">
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c3e8HbMiEe2EGPxn4okUvg" portName="tout" portType="OUTPUT_PORT" outgoingLinks="_c3e8bbMiEe2EGPxn4okUvg _c3e8b7MiEe2EGPxn4okUvg"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c3e8HrMiEe2EGPxn4okUvg" portName="ttmpout" portType="OUTPUT_PORT" outgoingLinks="_c3e8Z7MiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e8H7MiEe2EGPxn4okUvg" portName="t1in" incomingLinks="_c3e8LrMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e8ILMiEe2EGPxn4okUvg" portName="t2in" incomingLinks="_c3e8OLMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e8IbMiEe2EGPxn4okUvg" portName="t3in" incomingLinks="_c3e8QrMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e8IrMiEe2EGPxn4okUvg" portName="t4in" incomingLinks="_c3e8TLMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e8I7MiEe2EGPxn4okUvg" portName="t5in" incomingLinks="_c3e8VrMiEe2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c3e8JLMiEe2EGPxn4okUvg" portName="t6in" incomingLinks="_c3e8YLMiEe2EGPxn4okUvg"/>
+      </modelType>
+    </atomicModels>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8JbMiEe2EGPxn4okUvg" target="_c3e7lrMiEe2EGPxn4okUvg" source="_c3e7jrMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8JrMiEe2EGPxn4okUvg" target="_c3e7l7MiEe2EGPxn4okUvg" source="_c3e7kLMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8J7MiEe2EGPxn4okUvg" target="_c3e7mLMiEe2EGPxn4okUvg" source="_c3e7kbMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8KLMiEe2EGPxn4okUvg" target="_c3e7mbMiEe2EGPxn4okUvg" source="_c3e7krMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8KbMiEe2EGPxn4okUvg" target="_c3e75rMiEe2EGPxn4okUvg" source="_c3e7mrMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8KrMiEe2EGPxn4okUvg" target="_c3e78LMiEe2EGPxn4okUvg" source="_c3e7m7MiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8K7MiEe2EGPxn4okUvg" target="_c3e7-rMiEe2EGPxn4okUvg" source="_c3e7nLMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8LLMiEe2EGPxn4okUvg" target="_c3e8BLMiEe2EGPxn4okUvg" source="_c3e7nbMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8LbMiEe2EGPxn4okUvg" target="_c3e8DrMiEe2EGPxn4okUvg" source="_c3e7nrMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8LrMiEe2EGPxn4okUvg" target="_c3e8H7MiEe2EGPxn4okUvg" source="_c3e7n7MiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8L7MiEe2EGPxn4okUvg" target="_c3e7prMiEe2EGPxn4okUvg" source="_c3e7oLMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8MLMiEe2EGPxn4okUvg" target="_c3e7o7MiEe2EGPxn4okUvg" source="_c3e7jrMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8MbMiEe2EGPxn4okUvg" target="_c3e7pLMiEe2EGPxn4okUvg" source="_c3e7kLMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8MrMiEe2EGPxn4okUvg" target="_c3e7pbMiEe2EGPxn4okUvg" source="_c3e7kbMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8M7MiEe2EGPxn4okUvg" target="_c3e757MiEe2EGPxn4okUvg" source="_c3e7p7MiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8NLMiEe2EGPxn4okUvg" target="_c3e78bMiEe2EGPxn4okUvg" source="_c3e7qLMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8NbMiEe2EGPxn4okUvg" target="_c3e7-7MiEe2EGPxn4okUvg" source="_c3e7qbMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8NrMiEe2EGPxn4okUvg" target="_c3e8BbMiEe2EGPxn4okUvg" source="_c3e7qrMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8N7MiEe2EGPxn4okUvg" target="_c3e8D7MiEe2EGPxn4okUvg" source="_c3e7q7MiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8OLMiEe2EGPxn4okUvg" target="_c3e8ILMiEe2EGPxn4okUvg" source="_c3e7rLMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8ObMiEe2EGPxn4okUvg" target="_c3e7s7MiEe2EGPxn4okUvg" source="_c3e7rbMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8OrMiEe2EGPxn4okUvg" target="_c3e7sLMiEe2EGPxn4okUvg" source="_c3e7jrMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8O7MiEe2EGPxn4okUvg" target="_c3e7sbMiEe2EGPxn4okUvg" source="_c3e7kLMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8PLMiEe2EGPxn4okUvg" target="_c3e7srMiEe2EGPxn4okUvg" source="_c3e7kbMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8PbMiEe2EGPxn4okUvg" target="_c3e76LMiEe2EGPxn4okUvg" source="_c3e7tLMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8PrMiEe2EGPxn4okUvg" target="_c3e78rMiEe2EGPxn4okUvg" source="_c3e7tbMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8P7MiEe2EGPxn4okUvg" target="_c3e7_LMiEe2EGPxn4okUvg" source="_c3e7trMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8QLMiEe2EGPxn4okUvg" target="_c3e8BrMiEe2EGPxn4okUvg" source="_c3e7t7MiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8QbMiEe2EGPxn4okUvg" target="_c3e8ELMiEe2EGPxn4okUvg" source="_c3e7uLMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8QrMiEe2EGPxn4okUvg" target="_c3e8IbMiEe2EGPxn4okUvg" source="_c3e7ubMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8Q7MiEe2EGPxn4okUvg" target="_c3e7wLMiEe2EGPxn4okUvg" source="_c3e7urMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8RLMiEe2EGPxn4okUvg" target="_c3e7vbMiEe2EGPxn4okUvg" source="_c3e7j7MiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8RbMiEe2EGPxn4okUvg" target="_c3e7vrMiEe2EGPxn4okUvg" source="_c3e7kLMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8RrMiEe2EGPxn4okUvg" target="_c3e7v7MiEe2EGPxn4okUvg" source="_c3e7kbMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8R7MiEe2EGPxn4okUvg" target="_c3e76bMiEe2EGPxn4okUvg" source="_c3e7wbMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8SLMiEe2EGPxn4okUvg" target="_c3e787MiEe2EGPxn4okUvg" source="_c3e7wrMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8SbMiEe2EGPxn4okUvg" target="_c3e7_bMiEe2EGPxn4okUvg" source="_c3e7w7MiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8SrMiEe2EGPxn4okUvg" target="_c3e8B7MiEe2EGPxn4okUvg" source="_c3e7xLMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8S7MiEe2EGPxn4okUvg" target="_c3e8EbMiEe2EGPxn4okUvg" source="_c3e7xbMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8TLMiEe2EGPxn4okUvg" target="_c3e8IrMiEe2EGPxn4okUvg" source="_c3e7xrMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8TbMiEe2EGPxn4okUvg" target="_c3e7zbMiEe2EGPxn4okUvg" source="_c3e7x7MiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8TrMiEe2EGPxn4okUvg" target="_c3e7yrMiEe2EGPxn4okUvg" source="_c3e7j7MiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8T7MiEe2EGPxn4okUvg" target="_c3e7y7MiEe2EGPxn4okUvg" source="_c3e7kLMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8ULMiEe2EGPxn4okUvg" target="_c3e7zLMiEe2EGPxn4okUvg" source="_c3e7kbMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8UbMiEe2EGPxn4okUvg" target="_c3e76rMiEe2EGPxn4okUvg" source="_c3e7zrMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8UrMiEe2EGPxn4okUvg" target="_c3e79LMiEe2EGPxn4okUvg" source="_c3e7z7MiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8U7MiEe2EGPxn4okUvg" target="_c3e7_rMiEe2EGPxn4okUvg" source="_c3e70LMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8VLMiEe2EGPxn4okUvg" target="_c3e8CLMiEe2EGPxn4okUvg" source="_c3e70bMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8VbMiEe2EGPxn4okUvg" target="_c3e8ErMiEe2EGPxn4okUvg" source="_c3e70rMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8VrMiEe2EGPxn4okUvg" target="_c3e8I7MiEe2EGPxn4okUvg" source="_c3e707MiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8V7MiEe2EGPxn4okUvg" target="_c3e72rMiEe2EGPxn4okUvg" source="_c3e71LMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8WLMiEe2EGPxn4okUvg" target="_c3e717MiEe2EGPxn4okUvg" source="_c3e7j7MiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8WbMiEe2EGPxn4okUvg" target="_c3e72LMiEe2EGPxn4okUvg" source="_c3e7kLMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8WrMiEe2EGPxn4okUvg" target="_c3e72bMiEe2EGPxn4okUvg" source="_c3e7kbMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8W7MiEe2EGPxn4okUvg" target="_c3e767MiEe2EGPxn4okUvg" source="_c3e727MiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8XLMiEe2EGPxn4okUvg" target="_c3e79bMiEe2EGPxn4okUvg" source="_c3e73LMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8XbMiEe2EGPxn4okUvg" target="_c3e7_7MiEe2EGPxn4okUvg" source="_c3e73bMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8XrMiEe2EGPxn4okUvg" target="_c3e8CbMiEe2EGPxn4okUvg" source="_c3e73rMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8X7MiEe2EGPxn4okUvg" target="_c3e8E7MiEe2EGPxn4okUvg" source="_c3e737MiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8YLMiEe2EGPxn4okUvg" target="_c3e8JLMiEe2EGPxn4okUvg" source="_c3e74LMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8YbMiEe2EGPxn4okUvg" target="_c3e8GrMiEe2EGPxn4okUvg" source="_c3e74bMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8YrMiEe2EGPxn4okUvg" target="_c3e7iLMiEe2EGPxn4okUvg" source="_c3e75bMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8Y7MiEe2EGPxn4okUvg" target="_c3e7ibMiEe2EGPxn4okUvg" source="_c3e777MiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8ZLMiEe2EGPxn4okUvg" target="_c3e7irMiEe2EGPxn4okUvg" source="_c3e7-bMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8ZbMiEe2EGPxn4okUvg" target="_c3e7i7MiEe2EGPxn4okUvg" source="_c3e8A7MiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8ZrMiEe2EGPxn4okUvg" target="_c3e7jLMiEe2EGPxn4okUvg" source="_c3e8DbMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8Z7MiEe2EGPxn4okUvg" target="_c3e7jbMiEe2EGPxn4okUvg" source="_c3e8HrMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8aLMiEe2EGPxn4okUvg" target="_c3e7grMiEe2EGPxn4okUvg" source="_c3e75LMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8abMiEe2EGPxn4okUvg" target="_c3e7g7MiEe2EGPxn4okUvg" source="_c3e77rMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8arMiEe2EGPxn4okUvg" target="_c3e7hLMiEe2EGPxn4okUvg" source="_c3e7-LMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8a7MiEe2EGPxn4okUvg" target="_c3e7hbMiEe2EGPxn4okUvg" source="_c3e8ArMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8bLMiEe2EGPxn4okUvg" target="_c3e7hrMiEe2EGPxn4okUvg" source="_c3e8DLMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8bbMiEe2EGPxn4okUvg" target="_c3e7h7MiEe2EGPxn4okUvg" source="_c3e8HbMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8brMiEe2EGPxn4okUvg" target="_c3e8GLMiEe2EGPxn4okUvg" source="_c3e75LMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8b7MiEe2EGPxn4okUvg" target="_c3e8GbMiEe2EGPxn4okUvg" source="_c3e8HbMiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8cLMiEe2EGPxn4okUvg" target="_c3e8F7MiEe2EGPxn4okUvg" source="_c3e7k7MiEe2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c3e8cbMiEe2EGPxn4okUvg" target="_c3e7gbMiEe2EGPxn4okUvg" source="_c3e8FrMiEe2EGPxn4okUvg"/>
+  </CoupledModelType>
+  <notation:Diagram xmi:id="_c3e8crMiEe2EGPxn4okUvg" type="DEVS" element="_c3e7gLMiEe2EGPxn4okUvg" name="dymodeling.madesigner" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_c3e8c7MiEe2EGPxn4okUvg"/>
+  </notation:Diagram>
+</xmi:XMI>

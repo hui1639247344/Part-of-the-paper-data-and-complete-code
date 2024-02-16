@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDPlusPlus_Builder_Version_1.0.0>
+  <top>
+    <components>fincutin@FINCUTIN&#xd;</components>
+    <out> fincutin_cout fincutin_ceout fincutin_ccfout fincutin_chout fincutin_cwout fincutin_tout fincutin_w</out>
+    <in> fincutin_Ppin fincutin_Gin fincutin_Pin fincutin_wkpein &#xd;</in>
+    <Link> fincutin_Ppin fincutin_Ppin@fincutin&#xd;</Link>
+    <Link> fincutin_Gin fincutin_Gin@fincutin&#xd;</Link>
+    <Link> fincutin_Pin fincutin_Pin@fincutin&#xd;</Link>
+    <Link> fincutin_wkpein fincutin_wkpein@fincutin&#xd;</Link>
+    <Link> fincutin_cout@fincutin fincutin_cout&#xd;</Link>
+    <Link> fincutin_ceout@fincutin fincutin_ceout&#xd;</Link>
+    <Link> fincutin_ccfout@fincutin fincutin_ccfout&#xd;</Link>
+    <Link> fincutin_chout@fincutin fincutin_chout&#xd;</Link>
+    <Link> fincutin_cwout@fincutin fincutin_cwout&#xd;</Link>
+    <Link> fincutin_tout@fincutin fincutin_tout&#xd;</Link>
+    <Link> fincutin_wkpeout@fincutin fincutin_wkpeout&#xd;</Link>
+  </top>
+</CDPlusPlus_Builder_Version_1.0.0>

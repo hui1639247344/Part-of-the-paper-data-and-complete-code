@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDPlusPlus_Builder_Version_1.0.0>
+  <top>
+    <components> sta_c@STA_C &#xd;</components>
+    <out> cout ctmpout &#xd;</out>
+    <in> c1in c2in c3in c4in c5in c6in &#xd;</in>
+    <Link> cout@sta_c cout&#xd;</Link>
+    <Link> ctmpout@sta_c ctmpout&#xd;</Link>
+    <Link> c1in c1in@sta_c&#xd;</Link>
+    <Link> c2in c2in@sta_c&#xd;</Link>
+    <Link> c3in c3in@sta_c&#xd;</Link>
+    <Link> c4in c4in@sta_c&#xd;</Link>
+    <Link> c5in c5in@sta_c&#xd;</Link>
+    <Link> c6in c6in@sta_c&#xd;</Link>
+  </top>
+</CDPlusPlus_Builder_Version_1.0.0>

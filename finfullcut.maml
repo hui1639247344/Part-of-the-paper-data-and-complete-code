@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDPlusPlus_Builder_Version_1.0.0>
+  <top>
+    <components> finfullcut@FINFULLCUT&#xd;</components>
+    <out> finfullcut_cout finfullcut_ceout finfullcut_ccfout finfullcut_chout finfullcut_cwout finfullcut_tou</out>
+    <in> finfullcut_Ppin finfullcut_Gin finfullcut_Pin finfullcut_wkpein &#xd;</in>
+    <Link> finfullcut_Ppin finfullcut_Ppin@finfullcut&#xd;</Link>
+    <Link> finfullcut_Gin finfullcut_Gin@finfullcut&#xd;</Link>
+    <Link> finfullcut_Pin finfullcut_Pin@finfullcut&#xd;</Link>
+    <Link> finfullcut_wkpein finfullcut_wkpein@finfullcut&#xd;</Link>
+    <Link> finfullcut_cout@finfullcut finfullcut_cout&#xd;</Link>
+    <Link> finfullcut_ceout@finfullcut finfullcut_ceout&#xd;</Link>
+    <Link> finfullcut_ccfout@finfullcut finfullcut_ccfout&#xd;</Link>
+    <Link> finfullcut_chout@finfullcut finfullcut_chout&#xd;</Link>
+    <Link> finfullcut_cwout@finfullcut finfullcut_cwout&#xd;</Link>
+    <Link> finfullcut_tout@finfullcut finfullcut_tout&#xd;</Link>
+    <Link> finfullcut_wkpeout@finfullcut finfullcut_wkpeout&#xd;</Link>
+  </top>
+</CDPlusPlus_Builder_Version_1.0.0>

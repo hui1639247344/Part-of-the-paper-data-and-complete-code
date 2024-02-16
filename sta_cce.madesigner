@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns="http://www.example.org/DEVSModeler" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation">
+  <CoupledModelType xmi:id="_c1mIsbD_Ee2EGPxn4okUvg" modelName="top" defined="true" sourceFileRelativePath="sta_cce.ma">
+    <ports xmi:type="CoupledPort" xmi:id="_c1mIsrD_Ee2EGPxn4okUvg" portName="cceout" portType="OUTPUT_PORT" incomingLinks="_c1mIwrD_Ee2EGPxn4okUvg"/>
+    <ports xmi:type="CoupledPort" xmi:id="_c1mIs7D_Ee2EGPxn4okUvg" portName="Frin" outgoingLinks="_c1mIvrD_Ee2EGPxn4okUvg"/>
+    <ports xmi:type="CoupledPort" xmi:id="_c1mItLD_Ee2EGPxn4okUvg" portName="cin" outgoingLinks="_c1mIv7D_Ee2EGPxn4okUvg"/>
+    <ports xmi:type="CoupledPort" xmi:id="_c1mItbD_Ee2EGPxn4okUvg" portName="tin" outgoingLinks="_c1mIwLD_Ee2EGPxn4okUvg"/>
+    <ports xmi:type="CoupledPort" xmi:id="_c1mItrD_Ee2EGPxn4okUvg" portName="cce_wkpein" outgoingLinks="_c1mIwbD_Ee2EGPxn4okUvg"/>
+    <atomicModels xmi:type="AtomicModelInstance" xmi:id="_c1mIt7D_Ee2EGPxn4okUvg" instanceName="sta_cce">
+      <modelType xmi:type="CPPAtomicModelType" xmi:id="_c1mIuLD_Ee2EGPxn4okUvg" modelName="STA_CCE" defined="true" sourceFileRelativePath="STA_CCE.cpp">
+        <ports xmi:type="OutputAtomicPort" xmi:id="_c1mIubD_Ee2EGPxn4okUvg" portName="cceout" portType="OUTPUT_PORT" outgoingLinks="_c1mIwrD_Ee2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c1mIurD_Ee2EGPxn4okUvg" portName="Frin" incomingLinks="_c1mIvrD_Ee2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c1mIu7D_Ee2EGPxn4okUvg" portName="cin" incomingLinks="_c1mIv7D_Ee2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c1mIvLD_Ee2EGPxn4okUvg" portName="tin" incomingLinks="_c1mIwLD_Ee2EGPxn4okUvg"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_c1mIvbD_Ee2EGPxn4okUvg" portName="cce_wkpein" incomingLinks="_c1mIwbD_Ee2EGPxn4okUvg"/>
+      </modelType>
+    </atomicModels>
+    <links xmi:type="CoupledLink" xmi:id="_c1mIvrD_Ee2EGPxn4okUvg" target="_c1mIurD_Ee2EGPxn4okUvg" source="_c1mIs7D_Ee2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c1mIv7D_Ee2EGPxn4okUvg" target="_c1mIu7D_Ee2EGPxn4okUvg" source="_c1mItLD_Ee2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c1mIwLD_Ee2EGPxn4okUvg" target="_c1mIvLD_Ee2EGPxn4okUvg" source="_c1mItbD_Ee2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c1mIwbD_Ee2EGPxn4okUvg" target="_c1mIvbD_Ee2EGPxn4okUvg" source="_c1mItrD_Ee2EGPxn4okUvg"/>
+    <links xmi:type="CoupledLink" xmi:id="_c1mIwrD_Ee2EGPxn4okUvg" target="_c1mIsrD_Ee2EGPxn4okUvg" source="_c1mIubD_Ee2EGPxn4okUvg"/>
+  </CoupledModelType>
+  <notation:Diagram xmi:id="_c1mIw7D_Ee2EGPxn4okUvg" type="DEVS" element="_c1mIsbD_Ee2EGPxn4okUvg" name="sta_cce.madesigner" measurementUnit="Pixel">
+    <children xmi:type="notation:Node" xmi:id="_c1vSoLD_Ee2EGPxn4okUvg" type="2002" element="_c1mIsrD_Ee2EGPxn4okUvg">
+      <children xmi:type="notation:Node" xmi:id="_c1v5sLD_Ee2EGPxn4okUvg" type="5005"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_c1vSobD_Ee2EGPxn4okUvg"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_c1vSorD_Ee2EGPxn4okUvg"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_c1vSo7D_Ee2EGPxn4okUvg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_c1vSpLD_Ee2EGPxn4okUvg" x="936" y="216"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_c1v5sbD_Ee2EGPxn4okUvg" type="2002" element="_c1mIs7D_Ee2EGPxn4okUvg">
+      <children xmi:type="notation:Node" xmi:id="_c1v5trD_Ee2EGPxn4okUvg" type="5005"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_c1v5srD_Ee2EGPxn4okUvg"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_c1v5s7D_Ee2EGPxn4okUvg"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_c1v5tLD_Ee2EGPxn4okUvg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_c1v5tbD_Ee2EGPxn4okUvg" x="42" y="270"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_c1v5t7D_Ee2EGPxn4okUvg" type="2002" element="_c1mItLD_Ee2EGPxn4okUvg">
+      <children xmi:type="notation:Node" xmi:id="_c1v5vLD_Ee2EGPxn4okUvg" type="5005"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_c1v5uLD_Ee2EGPxn4okUvg"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_c1v5ubD_Ee2EGPxn4okUvg"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_c1v5urD_Ee2EGPxn4okUvg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_c1v5u7D_Ee2EGPxn4okUvg" x="48" y="180"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_c1v5vbD_Ee2EGPxn4okUvg" type="2002" element="_c1mItbD_Ee2EGPxn4okUvg">
+      <children xmi:type="notation:Node" xmi:id="_c1v5wrD_Ee2EGPxn4okUvg" type="5005"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_c1v5vrD_Ee2EGPxn4okUvg"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_c1v5v7D_Ee2EGPxn4okUvg"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_c1v5wLD_Ee2EGPxn4okUvg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_c1v5wbD_Ee2EGPxn4okUvg" x="54" y="108"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_c1v5w7D_Ee2EGPxn4okUvg" type="2002" element="_c1mItrD_Ee2EGPxn4okUvg">
+      <children xmi:type="notation:Node" xmi:id="_c1v5yLD_Ee2EGPxn4okUvg" type="5005"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_c1v5xLD_Ee2EGPxn4okUvg"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_c1v5xbD_Ee2EGPxn4okUvg"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_c1v5xrD_Ee2EGPxn4okUvg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_c1v5x7D_Ee2EGPxn4okUvg" x="60" y="42"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_c1v5ybD_Ee2EGPxn4okUvg" type="2003" element="_c1mIt7D_Ee2EGPxn4okUvg">
+      <children xmi:type="notation:Node" xmi:id="_c1wgwLD_Ee2EGPxn4okUvg" type="5007"/>
+      <styles xmi:type="notation:ShapeStyle" xmi:id="_c1v5yrD_Ee2EGPxn4okUvg" fontName="Microsoft YaHei UI"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_c1v5y7D_Ee2EGPxn4okUvg" x="504" y="138" height="205"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_c1mIxLD_Ee2EGPxn4okUvg"/>
+  </notation:Diagram>
+</xmi:XMI>
